@@ -4,12 +4,12 @@
     <id>NHibernateX.Caches.SysCache</id>
     <version>1.0.0.0</version>
     <title>NHibernateX.Caches.SysCache</title>
-    <authors>NHibernate.org</authors>
+    <authors>Michael Monsour</authors>
     <owners>diegose</owners>
     <licenseUrl>https://raw.githubusercontent.com/lethek/NHibernate-Caches/master/lgpl.txt</licenseUrl>
     <projectUrl>https://github.com/lethek/NHibernate-Caches</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Cache provider for NHibernate using ASP.NET Cache object.</description>
+    <description>Cache provider for NHibernateX using ASP.NET Cache object.</description>
     <copyright>Copyright 2014,2016</copyright>
     <tags>nhibernate cache</tags>
     <dependencies>
