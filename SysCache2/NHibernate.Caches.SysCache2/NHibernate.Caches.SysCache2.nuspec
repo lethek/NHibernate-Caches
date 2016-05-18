@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>NHibernate.Caches.SysCache2</id>
-    <version>4.0.1.400</version>
-    <title>NHibernate.Caches.SysCache2</title>
+    <id>NHibernateX.Caches.SysCache2</id>
+    <version>1.0.0.0</version>
+    <title>NHibernateX.Caches.SysCache2</title>
     <authors>NHibernate.org</authors>
     <owners>diegose</owners>
-    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
-    <projectUrl>https://github.com/nhibernate/NHibernate-Caches</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/lethek/NHibernate-Caches/master/lgpl.txt</licenseUrl>
+    <projectUrl>https://github.com/lethek/NHibernate-Caches</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cache provider for NHibernate using ASP.NET Cache object.</description>
-    <copyright>Copyright 2014</copyright>
+    <copyright>Copyright 2014,2016</copyright>
     <tags>nhibernate cache</tags>
     <dependencies>
-      <dependency id="NHibernate" version="4.0.1.4000" />
+      <dependency id="NHibernateX" version="[1.3.0.4000, 2.0)" />
     </dependencies>
   </metadata>
 </package>
