@@ -1,0 +1,21 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "0.1.0",
+	"command": "Tools\\nant\\bin\\NAnt.exe",
+	"isShellCommand": true,
+	"args": [],
+	"showOutput": "always",
+	"echoCommand": true,
+	"tasks": [
+		{
+			"taskName": "build",
+			"isBuildCommand": true
+		},
+		{"taskName": "build-test"},
+		{"taskName": "bin-pack"},
+		{"taskName": "binaries-zip"},
+		{"taskName": "clean"},
+		{"taskName": "release"}
+	]
+}
