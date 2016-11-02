@@ -14,3 +14,4 @@ using System.Security;
 [assembly: AssemblyKeyFileAttribute("../../NHibernate.Caches.snk")]
 [assembly: AssemblyDelaySignAttribute(false)]
 [assembly: AllowPartiallyTrustedCallers()]
+[assembly: SecurityRulesAttribute(SecurityRuleSet.Level1)]

@@ -14,3 +14,4 @@ using System.Security;
 //[assembly: AssemblyKeyFileAttribute("C:\\DATA\\Projects\\nhibernate\\NH-spare1\\nhibernate\\src\\NHibernate.snk")]
 [assembly: AssemblyDelaySignAttribute(false)]
 [assembly: AllowPartiallyTrustedCallers()]
+[assembly: SecurityRulesAttribute(SecurityRuleSet.Level1)]
