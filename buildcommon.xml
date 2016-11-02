@@ -26,7 +26,7 @@
 	-->
   <property name="project.company" value="nhforge.org" />
 
-  <property name="project.version" value="4.0.1.GA" overwrite="false" />
+  <property name="project.version" value="2.0.0.Alpha1" overwrite="false" />
 
   <!-- Compute short project version (major.minor) using a regex -->
   <regex input="${project.version}" pattern="^(?'shortversion'\d+\.\d+)" />
@@ -91,13 +91,13 @@
   <target name="set-debug-project-configuration" description="Perform a 'debug' build">
     <property name="build.release" value="false" />
     <property name="build.debug" value="true" />
-    <property name="build.name" value="NHibernate-Caches-${project.version}-${project.config}" />
+    <property name="build.name" value="NHibernateX-Caches-${project.version}-${project.config}" />
   </target>
 
   <target name="set-release-project-configuration" description="Perform a 'release' build">
     <property name="build.release" value="true" />
     <property name="build.debug" value="pdbonly" />
-    <property name="build.name" value="NHibernate-Caches-${project.version}" />
+    <property name="build.name" value="NHibernateX-Caches-${project.version}" />
   </target>
 
   <target name="set-project-configuration">

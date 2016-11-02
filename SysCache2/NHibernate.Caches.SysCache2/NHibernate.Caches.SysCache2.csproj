@@ -75,7 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CacheDependenciesElement.cs" />
     <Compile Include="CacheRegionCollection.cs" />
     <Compile Include="CacheRegionElement.cs" />
@@ -95,9 +95,7 @@
     <Compile Include="TableCacheDependencyCollection.cs" />
     <Compile Include="TableCacheDependencyElement.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
