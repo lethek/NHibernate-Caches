@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>$id$</id>
+    <id>NHibernateX.Caches.RtMemoryCache</id>
     <version>2.0.0-Alpha1</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <projectUrl>https://github.com/nhibernate/NHibernate-Caches</projectUrl>
+    <title>NHibernateX.Caches.SysCache</title>
+    <authors>Michael Monsour</authors>
+    <owners>Ricardo Peres</owners>
+    <licenseUrl>https://raw.githubusercontent.com/lethek/NHibernate-Caches/master/lgpl.txt</licenseUrl>
+    <projectUrl>https://github.com/lethek/NHibernate-Caches</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2014</copyright>
-    <tags>nhibernate cache</tags>
+    <tags>nhibernatex nhibernate cache memorycache</tags>
     <dependencies>
       <dependency id="NHibernateX" version="2.0.0-Alpha1" />
     </dependencies>

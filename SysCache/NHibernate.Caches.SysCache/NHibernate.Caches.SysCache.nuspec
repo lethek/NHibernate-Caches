@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cache provider for NHibernateX using ASP.NET Cache object.</description>
     <copyright>Copyright 2014,2016</copyright>
-    <tags>nhibernate cache</tags>
+    <tags>nhibernatex nhibernate cache syscache</tags>
     <dependencies>
       <dependency id="NHibernateX" version="2.0.0-Alpha1" />
     </dependencies>
