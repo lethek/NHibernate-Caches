@@ -3,7 +3,7 @@
   <metadata>
     <id>NHibernateX.Caches.RtMemoryCache</id>
     <version>2.0.0-Alpha1</version>
-    <title>NHibernateX.Caches.SysCache</title>
+    <title>NHibernateX.Caches.RtMemoryCache</title>
     <authors>Michael Monsour</authors>
     <owners>Ricardo Peres</owners>
     <licenseUrl>https://raw.githubusercontent.com/lethek/NHibernate-Caches/master/lgpl.txt</licenseUrl>
